@@ -68,6 +68,16 @@ p {
 
 }
 
+.story {
+
+    font-family: "Story Script", sans-serif;
+    
+    font-weight: 900;
+    
+    font-style: normal;
+
+}
+
 /* Borders */
 
 .skibidi {
@@ -162,6 +172,26 @@ p {
 
 }
 
+.about {
+
+    border-width: 10px;
+
+    border-color: #6b5a50;
+
+    border-style: double;
+
+    padding: 2%;
+
+    margin: 1%;
+
+    border-radius: 10px;
+
+    display: inline-block;
+
+    text-align: center;
+
+}
+
 /* Descriptions */
 
 #stitle {
@@ -175,5 +205,74 @@ p {
 .title {
 
     font-size: small;
+
+}
+
+#cta {
+
+    color: #6b5a50;
+
+    font-size: 50px;
+
+    font-family: "Fjalla One", sans-serif;
+    
+    font-style: normal;
+
+    text-align: center;
+
+}
+
+/* Navigation Bar */
+
+ul {
+
+    padding: 0%;
+
+    list-style-type: none;
+
+    display: flex;
+ 
+    background-color: #a88c7d;
+
+    position: fixed;
+
+    top: 0%;
+
+    width: 100%;
+
+    margin: 0%;
+
+    margin-left: -50px;
+
+    justify-content: center;
+
+    
+}
+
+ul li {
+
+    float: left;
+
+}
+
+ul li a {
+
+    text-decoration: none;
+
+    padding: 14px 16px;
+
+    font-family: "Josefin Sans",sans-serif;
+
+    color: #F0EFEB;
+
+    display: block;
+
+}
+
+ul li a:hover {
+
+    background-color: #E3E1DA;
+
+    color: #a88c7d;
 
 }
