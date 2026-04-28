@@ -78,9 +78,7 @@ p {
 
 }
 
-/* Borders */
-
-.skibidi {
+#about {
 
     border-width: 10px;
 
@@ -93,134 +91,26 @@ p {
     margin: 1%;
 
     border-radius: 10px;
-
-    display: inline-block;
-
-    text-align: center;
-
-}
-
-#skibdishirt {
-
-    border-width: 3px;
-
-    border-color: #6b5a50;
-
-    border-style: solid;
-
-}
-
-.six7 {
-
-    border-width: 10px;
-
-    border-color: #6b5a50;
-
-    border-style: double;
-
-    padding: 2%;
-
-    margin: 1%;
-
-    border-radius: 10px;
-
-    display: inline-block;
-
-    text-align: center;
-
-    align-items: center;
-
-}
-
-#sspants {
-
-    border-width: 3px;
-
-    border-color: #6b5a50;
-
-    border-style: solid;
-
-}
-
-.crocs {
-
-    border-width: 10px;
-
-    border-color: #6b5a50;
-
-    border-style: double;
-
-    padding: 2%;
-
-    margin: 1%;
-
-    border-radius: 10px;
-
-    display: inline-block;
-
-    text-align: center;
-
-}
-
-#cimage {
-
-    border-width: 3px;
-
-    border-color: #6b5a50;
-
-    border-style: solid;
-
-}
-
-.about {
-
-    border-width: 10px;
-
-    border-color: #6b5a50;
-
-    border-style: double;
-
-    padding: 2%;
-
-    margin: 1%;
-
-    border-radius: 10px;
-
-    display: inline-block;
-
-    text-align: center;
-
-}
-
-/* Descriptions */
-
-#stitle {
-
-    font-family: "Fjalla One", sans-serif;
-
-    font-size: xx-large;
-
-}
-
-.title {
-
-    font-size: small;
 
 }
 
 #cta {
 
-    color: #6b5a50;
-
-    font-size: 50px;
-
-    font-family: "Fjalla One", sans-serif;
-    
-    font-style: normal;
-
     text-align: center;
 
+    color: #6b5a50;
+
+    font-family: "Fjalla One", sans-serif;
+
+    font-weight: 900;
+
+    font-size: 60px;
+
+    margin: 2%;
+
 }
+
+
 
 /* Navigation Bar */
 
@@ -274,5 +164,53 @@ ul li a:hover {
     background-color: #E3E1DA;
 
     color: #a88c7d;
+
+}
+
+.card {
+
+    border-width: 10px;
+
+    border-color: #6b5a50;
+
+    border-style: double;
+
+    padding: 2%;
+
+    margin: 1%;
+
+    border-radius: 10px;
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+.images {
+
+    border-color: #6b5a50;
+
+    border-style: solid;
+
+    border-width: 3px;
+
+    margin: 3%;
+
+}
+
+h4 {
+
+    color: #6b5a50;
+
+    font-family: "Fjalla One", sans-serif;
+
+    font-size: xx-large;
+
+    margin: 1%;
+
+    text-align: center;
+
+    margin: 2%;
 
 }
