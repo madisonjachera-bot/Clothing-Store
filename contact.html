@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <title>About Us</title>
+    <title>Contacts</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     
@@ -47,7 +47,7 @@
 
         <li> <a href="about.html">About Us</a></li>
 
-        <li> <a href="">Contacts</a></li>
+        <li> <a href="contact.html">Contacts</a></li>
 
     </ul>
 
@@ -82,11 +82,33 @@
 
 </div>
 
+<!-- Contact -->
+
+<form onsubmit="handleSubmit(event)">
+    
+    <label for="name">Name:</label><br>
+    
+    <input type="text" id="name"><br><br>
+    
+    <label for="message">Message:</label><br>
+    
+    <textarea id="message"></textarea><br><br>
+
+
+    <button type="submit">Send</button>
+
+</form>
+   
+   <p id="response"></p>
+   
+
     <p id="cta">
 
         Enjoy Your Service!
 
     </p>
+
+    <script src="script.js"></script>
     
 </body>
 

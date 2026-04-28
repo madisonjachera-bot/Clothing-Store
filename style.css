@@ -214,3 +214,74 @@ h4 {
     margin: 2%;
 
 }
+
+/* Contacts */
+
+input, textarea {
+
+    width: 300px;
+
+    padding: 8px;
+
+    margin-bottom: 10px;
+
+    color: #6b5a50;
+
+    background-color: #E3E1DA;
+
+    border-color: #6b5a50;
+
+    border-radius: 3px;
+
+    font-family: "Lexend Deca", sans-serif;
+
+   }
+   
+   button {
+
+    padding: 10px 15px;
+
+    background-color: #6b5a50;
+
+    color: #E3E1DA;
+
+    border: #6b5a50;
+
+    border-radius: 3px;
+
+    font-family: "Fjalla One", sans-serif;
+
+   }
+   
+   button:hover {
+
+    background-color: #E3E1DA;
+
+    color: #6b5a50;
+
+    border-color: #6b5a50;
+
+    border-width: 3px;
+
+   }
+
+   label {
+
+    color: #6b5a50;
+
+    font-family:  "Josefin Sans", sans-serif;
+
+    font-size: x-large;
+
+    font-weight: 700;
+
+    text-align: center;
+
+   }
+
+   input:focus {
+    
+    outline: none;
+    
+    box-shadow: none;
+}
